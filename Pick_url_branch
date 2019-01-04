@@ -1,0 +1,9 @@
+import requests
+import bs4
+soup=bs4.BeautifulSoup(res.text,'htmlParser')
+type(soup)
+x=soup.select('Repo Url')
+x.getText()
+y=soup.select('Branch Name')
+y.getText()
+
