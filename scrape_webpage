@@ -1,0 +1,5 @@
+import requests
+import bs4
+res = requests.get('http://hck.re/crowdstrike')
+type(res)
+res.text
